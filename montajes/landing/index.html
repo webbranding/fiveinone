@@ -1,0 +1,67 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Fiveinone</title>
+<style type="text/css">
+body{
+	background:url(images/fondo.jpg) top center !important;}
+#news{
+	background:url(images/LandingPage_03.jpg) top center !important;
+	height:50px;
+	width:590px;
+	position:relative;
+	top:228px;
+	margin:0 auto;}
+#social{
+	height:32px;
+	width:148px;
+	position:relative;
+	top:589px;
+	margin:0 auto;}
+input[type="email"]{
+	font-size:14px;
+	border:none;
+	background-color: transparent !important;
+	color: #46494a;
+	width: 508px ;
+	margin: 18px 0 18px 18px;
+	overflow:hidden;}
+input[type="email"]:focus{
+	outline:0px;}
+input[type="image"]{
+	heigth:50px !important;
+	width: 62px;
+	border:none;}
+#newsletter{
+	display:inline-block;}
+@-moz-document url-prefix() {
+input[type="email"]{
+width:510px;
+border:none;
+box-shadow:none;
+}
+}	
+</style>
+</head>
+
+<body>
+<div id="news">
+<form id="newsletter" name="newsletter" action="php/newsletter.php" method="post">
+<div style="float:left; display:inline-block;">
+<input type="email" placeholder="Envianos tu email y te avisamos cuando estemos listos." name="email" required>
+</div>
+<div style="float:left;">
+<input type="image" src="images/boton.jpg" alt="Submit">
+</div>
+</form>
+</div>
+
+<div id="social">
+<img src="images/LandingPage_07.png">
+<img style="margin-left:21px"src="images/LandingPage_09.png">
+<img style="margin-left:21px"src="images/LandingPage_11.png">
+</div>
+
+</body>
+</html>
